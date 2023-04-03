@@ -3,8 +3,10 @@ using namespace std;     // used for not to use always a std ::
 
 int main()
 {
-    float i = 15;
-    cout << "value of i " << i;
-    
+    string s1 ;
+    string s2;
+    cin >> s1 >> s2;
+    cout << s1<< " "<< s2;
+
     return 0;
 }

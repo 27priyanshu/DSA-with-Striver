@@ -3,10 +3,10 @@ using namespace std;     // used for not to use always a std ::
 
 int main()
 {
-    string s1 ;
-    string s2;
-    cin >> s1 >> s2;
-    cout << s1<< " "<< s2;
+    string str;
+    str = "ram ji ki seva";
+    getline(cin, str);
+    cout << str;
 
     return 0;
 }

@@ -7,5 +7,6 @@ int main()
     str = "ram ji ki seva";
     getline(cin, str);
     cout << str;
-    return 0;
+    return  0;
+
 }

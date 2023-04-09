@@ -9,7 +9,7 @@ int count(int n)
         int lastDigit = n % 10;
         cont = cont + 1;
         n = n / 10;
-    }
+    }  
     return cont;
 }
 

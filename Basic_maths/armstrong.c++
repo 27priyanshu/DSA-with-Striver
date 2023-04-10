@@ -3,8 +3,10 @@ using namespace std;
 
 int main()
 {
-    int n, sum = 0, dep = n;
+    int n;
     cin >> n;
+    int sum = 0, dep = n;
+
     while (n > 0)
     {
         int last_digit = n % 10;
